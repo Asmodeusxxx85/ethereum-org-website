@@ -495,6 +495,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "River",
+    infoURL: "https://www.river.build",
+    chainId: 550,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "river",
+  },
+  {
     name: "Redstone",
     infoURL: "https://redstone.xyz",
     chainId: 690,
@@ -504,6 +515,28 @@ const chains = [
       decimals: 18,
     },
     chain: "ETH",
+  },
+  {
+    name: "Tranched Mainnet",
+    infoURL: "https://tranched-mainnet.hub.caldera.xyz",
+    chainId: 743,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "tranched-mainnet",
+  },
+  {
+    name: "Rivalz",
+    infoURL: "https://rivalz.hub.caldera.xyz",
+    chainId: 753,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "rivalz",
   },
   {
     name: "Patex",
@@ -715,6 +748,17 @@ const chains = [
     chain: "TSF",
   },
   {
+    name: "Soneium",
+    infoURL: "https://soneium.org",
+    chainId: 1868,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
     name: "Lightlink Phoenix Mainnet",
     infoURL: "https://lightlink.io",
     chainId: 1890,
@@ -740,17 +784,6 @@ const chains = [
     name: "Swellchain",
     infoURL: "https://app.swellnetwork.io/layer2/swell-l2",
     chainId: 1923,
-    nativeCurrency: {
-      name: "Ether",
-      symbol: "ETH",
-      decimals: 18,
-    },
-    chain: "ETH",
-  },
-  {
-    name: "Minato",
-    infoURL: "https://soneium.org",
-    chainId: 1946,
     nativeCurrency: {
       name: "Ether",
       symbol: "ETH",
@@ -911,6 +944,17 @@ const chains = [
       decimals: 18,
     },
     chain: "Muster",
+  },
+  {
+    name: "OEV Network",
+    infoURL: "https://api3.org/oev/",
+    chainId: 4913,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "oev-network",
   },
   {
     name: "Mantle",
@@ -1089,6 +1133,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Huddle01 dRTC Chain",
+    infoURL: "https://huddle01.com/",
+    chainId: 12323,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "huddle01",
+  },
+  {
     name: "L3X Protocol",
     infoURL: "https://l3x.com",
     chainId: 12324,
@@ -1120,6 +1175,17 @@ const chains = [
       decimals: 18,
     },
     chain: "ETHW",
+  },
+  {
+    name: "Fluent Developer Preview",
+    infoURL: "https://fluent.xyz",
+    chainId: 20993,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "Fluent",
   },
   {
     name: "Lestnet",
@@ -1213,6 +1279,17 @@ const chains = [
     name: "Mode",
     infoURL: "https://docs.mode.network/",
     chainId: 34443,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
+  },
+  {
+    name: "Donatuz",
+    infoURL: "https://www.donatuz.com",
+    chainId: 42026,
     nativeCurrency: {
       name: "Ether",
       symbol: "ETH",
@@ -1329,6 +1406,17 @@ const chains = [
       decimals: 18,
     },
     chain: "Lambda Chain",
+  },
+  {
+    name: "Ink",
+    infoURL: "https://inkonchain.com",
+    chainId: 57073,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "Linea",
@@ -1463,8 +1551,19 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Henez Chain Mainnet",
+    infoURL: "https://www.henez.fi/",
+    chainId: 91111,
+    nativeCurrency: {
+      name: "Ether",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "henez",
+  },
+  {
     name: "Plume Devnet",
-    infoURL: "https://www.plumenetwork.xyz/",
+    infoURL: "https://plumenetwork.xyz/",
     chainId: 98864,
     nativeCurrency: {
       name: "Plume Sepolia Ether",
@@ -1475,7 +1574,7 @@ const chains = [
   },
   {
     name: "Plume Mainnet",
-    infoURL: "https://www.plumenetwork.xyz/",
+    infoURL: "https://plumenetwork.xyz/",
     chainId: 98865,
     nativeCurrency: {
       name: "Plume Ether",
@@ -1607,6 +1706,17 @@ const chains = [
     chain: "ETH",
   },
   {
+    name: "Infinaeon",
+    infoURL: "hhttps://rpc.infinaeon.com",
+    chainId: 420000,
+    nativeCurrency: {
+      name: "Ethereum",
+      symbol: "ETH",
+      decimals: 18,
+    },
+    chain: "Infinaeon",
+  },
+  {
     name: "Scroll",
     infoURL: "https://scroll.io",
     chainId: 534352,
@@ -1638,6 +1748,17 @@ const chains = [
       decimals: 18,
     },
     chain: "DUSTBOY",
+  },
+  {
+    name: "Zether Mainnet",
+    infoURL: "https://zether.org",
+    chainId: 715131,
+    nativeCurrency: {
+      name: "Zether",
+      symbol: "ZTH",
+      decimals: 18,
+    },
+    chain: "Zether",
   },
   {
     name: "zkLink Nova Mainnet",
